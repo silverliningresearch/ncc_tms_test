@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+</head>
+<body>
+  <script>
+    console.log("restart interview");
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const urlVar01 = urlParams.get('urlVar01');
+    const urlVar02 = urlParams.get('urlVar02')
+    //const urlVar03 = urlParams.get('urlVar03')
+    const urlVar04 = urlParams.get('urlVar04')
+    //const urlVar05 = urlParams.get('urlVar05')
+
+    let url = "https://silverliningresearch.github.io/ncc_tms_test/survey?";
+
+    if (urlVar01)  url = url + "urlVar01=" + urlVar01;
+    if (urlVar02)  url = url + "&urlVar02=" + urlVar02;
+    //if (urlVar03)  url = url + "&urlVar03=" + urlVar03;
+    if (urlVar04)  url = url + "&urlVar04=" + urlVar04;
+    //if (urlVar05)  url = url + "&urlVar05=" + urlVar05;
+
+    localStorage.clear();
+
+    window.location.href = url;
+</script>
+
+
+</body>
+</html>
+
+

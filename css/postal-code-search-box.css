@@ -1,0 +1,19 @@
+#inputFlightCodeID {
+    /* position: absolute; */
+    max-width: 100%;
+    width: 30rem;
+} 
+
+#inputcityCodeID {
+    /* position: absolute; */
+    max-width: 100%;
+    width: 30rem;
+} 
+.flag-page-second .dx-popup-content .dx-scrollable {
+    font-size: 10px !important;
+}
+
+.flag-page-second .dx-popup-content .dx-scrollable .dx-list-search
+{
+    font-size: 10px;
+}
